@@ -7,7 +7,7 @@ cask "dancing-pet" do
   desc "Menu-bar desktop pet (Waabi) that walks, climbs the Dock, and dances to audio"
   homepage "https://github.com/asdeszqsc/dancing-pet"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "DancingPet.app"
 
