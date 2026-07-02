@@ -2,7 +2,7 @@ cask "dancing-pet" do
   version "1.0.0"
   sha256 "ecd047bda2fffef2536b8f46f7bdac55973336030a731267024ce490bcce50b7"
 
-  url "https://github.com/asdeszqsc/dancing-pet/releases/download/v#{version}/DancingPet.zip"
+  url "https://github.com/asdeszqsc/dancing-pet/releases/download/v#{version}/DancingPet_#{version}_universal.dmg"
   name "DancingPet"
   desc "Menu-bar desktop pet (Waabi) that walks, climbs the Dock, and dances to audio"
   homepage "https://github.com/asdeszqsc/dancing-pet"
@@ -23,6 +23,9 @@ cask "dancing-pet" do
   EOS
 
   zap trash: [
+    "~/Library/Application Support/com.dancingpet.app",
+    "~/Library/Caches/com.dancingpet.app",
+    "~/Library/WebKit/com.dancingpet.app",
     "~/Library/Preferences/com.example.dancingpet.plist",
   ]
 end
