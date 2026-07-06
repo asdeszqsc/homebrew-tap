@@ -1,6 +1,6 @@
 cask "dancing-pet" do
-  version "1.0.2"
-  sha256 "c8c75fe22dd8ea169bb5c7e89636aba235ec17ea3f44523642f856532cd07896"
+  version "1.0.3"
+  sha256 "6b466b3144974a56623f5a3ac4ff79930c6b170cc2cab097d7889810fb2a796b"
 
   url "https://github.com/asdeszqsc/dancing-pet/releases/download/v#{version}/DancingPet_#{version}_universal.dmg"
   name "DancingPet"
